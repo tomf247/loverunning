@@ -66,9 +66,11 @@ h1, h2 {
     overflow: hidden;
     position: relative;
 }
+
 #cover-text, #cover-text h2 {
     color: #fff;
 }
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -133,13 +135,14 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
+
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px;
 }
+
 #left-about-heading {
     width: 60%;
     float: right;
@@ -147,6 +150,7 @@ hr {
     clear: both;
     margin-bottom: 60px;
 }
+
 #right-about-heading {
     width: 60%;
     float: left;
@@ -154,9 +158,32 @@ hr {
     clear: both;
     margin-bottom: 60px;
 }
+
 #right-about-heading h2{
     text-align: right;
 }
+
 #right-about-heading p{
     text-align: right;
+}
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#circle-cover-bg {
+    background: url('../images/ethos-center-image.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
