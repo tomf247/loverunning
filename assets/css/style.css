@@ -30,7 +30,6 @@ h1, h2 {
 /* navigation links */
 
 #menu {
-    float: right;
     font-size: 110%;
     letter-spacing: 4px;
 }
@@ -40,9 +39,9 @@ h1, h2 {
 }
 
 #menu li {
-    float: left; 
-    margin-right: 30px;
+    float: right;
     list-style-type: none;
+    margin-right: 30px;
 }
 
 #menu a {
@@ -58,12 +57,13 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image */
+/* hero image and cover text */
 
-#hero-outer{
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
     position: relative;
 }
 
@@ -74,21 +74,20 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.webp) no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
 
-/* animates zoom effect on loading page */
+    /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 /* creates the level of zoom for hero image */
-
 @keyframes hero-zoom {
-    from {
+    from{
         transform: scale(1);
     }
-    to {
+    to{
         transform: scale(1.1);
     }
 }
@@ -102,11 +101,11 @@ h1, h2 {
     width: 300px;
     height: 200px;
 
-
     padding-top: 40px;
     padding-left: 10px;
 
     background-color: rgba(241, 109, 107, .7);
+
     bottom: 30px;
     right: 150px;
 
@@ -115,7 +114,7 @@ h1, h2 {
 
 /* club ethos */
 
-#club-ehthos {
+#club-ethos {
     height: 600px;
 }
 
@@ -132,7 +131,6 @@ h1, h2 {
 }
 
 #center-about {
-    padding-top: 30px;
     width: 33%;
     margin: 0 auto;
 }
@@ -140,32 +138,33 @@ h1, h2 {
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    margin: 5px;
+    margin: 5px 0;
 }
 
-#left-about-heading {
+.left-about-heading {
     width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
-#right-about-heading {
+.right-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
-#right-about-heading h2{
+.right-about-heading h2 {
     text-align: right;
 }
 
-#right-about-heading p{
+.right-about-heading p {
     text-align: right;
 }
+
 #welcome {
     text-align: center;
     margin: 20px 0;
@@ -182,6 +181,7 @@ hr {
     border-radius: 50%;
     margin: 0 auto;
 }
+
 #circle-cover-bg {
     background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
